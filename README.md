@@ -1,7 +1,3 @@
 # DS2-ZIP
 
-This is a small program I created for my workplace to increase efficency.
-
-The program takes a file path that contains .DS2 files (encrypted dictation), a four digit Winscribe Author ID, a Winscribe Job Type, generates a .WST file (metadata file) with this data so that our converter service can pick this up, generate a .WAV file and process the file through to secretarial staff for transcription.  
-
-This program is only required when an author does not program their device with an author code, or does not select an author code.
+DS2ZIP is a simple Python script designed to facilitate the organization and packaging of .DS2 files along with associated metadata files into .zip archives. This script allows users to quickly create zip archives containing .DS2 files and their corresponding .wst metadata files with specified author IDs and job types.
